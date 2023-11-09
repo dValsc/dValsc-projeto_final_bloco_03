@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Home() {
     return (
@@ -16,12 +17,12 @@ function Home() {
                             <div className='rounded text-white 
                                             border-white border-solid border-2 py-2 px-4'
                                 >
-                                Nova Postagem
+                                <Link to='/categorias' className='hover:underline'>Categorias</Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="flex justify-center w-[39.5rem]">
+                    <div className="flex justify-center w-[42rem]">
                         <img
                             src="https://i.pinimg.com/originals/c7/2b/a8/c72ba8413d173e9fda9755287639744e.png"
                             alt="Imagem Página Home"
