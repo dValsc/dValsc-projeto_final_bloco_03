@@ -22,7 +22,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center w-[42rem]">
+                    <div className="flex justify-center w-[42.5rem]">
                         <img
                             src="https://i.pinimg.com/originals/c7/2b/a8/c72ba8413d173e9fda9755287639744e.png"
                             alt="Imagem Página Home"
